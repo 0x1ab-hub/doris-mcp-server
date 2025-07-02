@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-RUN pip install mcp-doris-server
+RUN pip install doris-mcp-server==0.4.2
 
 EXPOSE 3000
 
